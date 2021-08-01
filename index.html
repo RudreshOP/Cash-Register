@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cash Register</title>
+</head>
+<body>
+    <nav class="nav">
+        <p>Cash Register</p>
+    </nav>
+    <div class="container">
+        <h1>Cash Register Manager </h1>
+        <p class="description">
+            Enter the bill mount and cash given by the customer and know minimum number of notes to return.
+        </p> 
+        <label for="bill-amount" class="bill">Bill Amount:</label>
+        <input id="bill-amount" type="number" class="input" placeholder="Enter Your Bill Amount" />
+       
+        <label for="cash-given" class="cash">Cash Given:</label>
+        <input id="cash-given" type="number" class="input" placeholder="Enter the amount of cash you gave"></input>
+
+        <div>
+        <button id="check-button" class="button">Check</button>
+        </div>
+
+        <p id="error-message" class="description"></p>
+        <table class="table">
+            <caption class="description">Return change</caption>
+            <tr>
+                <th>No of Notes </th> 
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>Note</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+    <footer class="footer">
+        <p>Social Links</p>
+        <ul class="social-links unordered">
+          <li class="list-inline">
+            <a class="link" href="https://github.com/RudreshOP">
+              github
+            </a>
+          </li>
+          <li class="list-inline">
+            <a class="link" href="https://twitter.com/ParadkarRudresh">
+              twitter
+            </a>
+          </li>
+          <li class="list-inline">
+            <a class="link" href="https://www.linkedin.com/in/rudresh-paradkar">
+              linkedln
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
